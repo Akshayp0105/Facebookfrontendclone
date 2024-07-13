@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone</title>
+    <link href="style12.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <a class="logo-text" href="index.html">Facebook</a>
+            </div>
+            <div class="login">
+                <form>
+                    <table class="login-control">
+                        <tr>
+                            <td><label for="email">Email or Mobile</label></td>
+                            <td><label for="password">Password</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="email"></td>
+                            <td><input type="password" id="password"></td>
+                            <td><input class="submit" type="submit" value="Log In"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a class="forget" href="forgotten.html">Forgotten Account?</a></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </header>
+        <main class="main-body">
+            <div class="left-section">
+                <p class="left-para">Facebook helps you connect and share with the people in your life.</p>
+                <img class="image" src="facebook2.jpg" alt="Connecting People">
+            </div>
+            <div class="right-section">
+                <h1 class="heading">Create an account</h1>
+                <p class="para">It's quick and easy.</p>
+                <form>
+                    <input class="ssn1" type="text" placeholder="First name">
+                    <input class="ssn2" type="text" placeholder="Surname">
+                    <input class="mob" type="text" placeholder="Mobile number or email address">
+                    <input type="password" class="pass" name="pwd" minlength="8" placeholder="New password">
+                    <div>
+                        <p class="grey">Birthday</p>
+                        <select class="birth-dropdown">
+                            <option value="">Day</option>
+                            <!-- Add day options here -->
+                        </select>
+                        <select class="birth-dropdown">
+                            <option value="">Month</option>
+                            <!-- Add month options here -->
+                        </select>
+                        <select class="birth-dropdown">
+                            <option value="">Year</option>
+                            <!-- Add year options here -->
+                        </select>
+                        <img src="qn.png" alt="question mark" class="qn">
+                    </div>
+                    <div class="gender">
+                        <p class="grey">Gender</p>
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="custom">
+                        <label for="custom">Custom</label>
+                        <img src="qn.png" alt="question mark" class="qn">
+                        <p class="grey">By clicking Sign Up, you agree to our Terms, Data Policy, and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+                        <button type="button" class="button">Sign Up</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
